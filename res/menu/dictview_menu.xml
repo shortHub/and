@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+		android:id="@+id/me_dictPrev"
+		android:title="@string/me_dict_prev"
+		android:icon="@drawable/ic_menu_back"
+	/>
+
+    <item
+		android:id="@+id/me_dictNext"
+		android:title="@string/me_dict_next"
+		android:icon="@drawable/ic_menu_forward"
+	/>
+
+    <item
+        android:id="@+id/me_dict_showList"
+        android:title="@string/me_dict_showList"
+        android:icon="@android:drawable/ic_menu_agenda"
+     />
+
+    <item
+		android:id="@+id/me_dictWikipedia"
+		android:title="@string/me_dict_wiki"
+		android:icon="@android:drawable/ic_menu_info_details"
+	/>
+	    
+
+</menu>

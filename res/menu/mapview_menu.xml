@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/me_deactivate_graphics"
+		android:title="@string/me_mapv_deac"
+	/>
+	
+	<item
+		android:id="@+id/me_show_satelite"
+		android:title="@string/me_mapv_sat"
+	/>
+	
+	<item
+		android:id="@+id/me_show_own_pos"
+		android:title="@string/me_mapv_ownpos"
+	/>
+
+</menu>

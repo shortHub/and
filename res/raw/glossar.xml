@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dict_entries [
+    <!ATTLIST entry id ID #REQUIRED> 
+    <!ATTLIST entry key CDATA #REQUIRED>
+    <!ATTLIST entry wiki CDATA #IMPLIED>
+  ]
+>
+
+<!-- Document : glossar.xml Created on : May 5, 2011, 9:57 PM Author : foo 
+	Description: Haelt Content fuer den "Astronomischen Glossar".
+				 Jeder neu hinzugefuegte Datensatz MUSS die DTD beachten,
+				 sprich, er muss mindestens die Attribute id und key beinhalten. 
+-->
+
+<dict_entries>
+
+	<entry id="1" key="Aberration" wiki="http://de.wikipedia.org/wiki/Aberration_%28Astronomie%29">
+		Die Aberration des Lichts (v. lat. aberratio „Ablenkung“) bezeichnet in der Astronomie eine kleine scheinbare Ortsveränderung aller Gestirne durch die Endlichkeit der Lichtgeschwindigkeit. Sie beeinflusst die Sternörter auf dreifache Weise: 
+			1.: tägliche Aberration, verursacht durch die Erdrotation, 
+			2.: jährliche Aberration, oder auch stellare Aberration genannt, verursacht durch die Umlaufbahn der Erde um die Sonne, 
+			3.: säkulare Aberration, verursacht durch die Bewegung des Sonnensystems gegenüber den anderen Sternen unserer kosmischen Nachbarschaft.
+	</entry>
+	<entry id="2" key="Aphel" wiki="http://de.wikipedia.org/wiki/Aphel#Aphel">
+		<text>Das Aphel ist der sonnenfernste Punkt einer Planetenbahn.</text>
+	</entry>
+	<entry id="3" key="Apsis" wiki="http://de.wikipedia.org/wiki/Apsis_%28Astronomie%29">
+		<text>Als Apsis (griechisch „Wölbung“, Plural Apsiden) bezeichnet man die beiden Hauptscheitel auf der elliptischen Umlaufbahn eines Himmelskörpers. Apoapsis ist dabei der Punkt mit der größten Entfernung zum Hauptkörper und Periapsis der mit der geringsten. Da die Ellipse genau zwei Hauptscheitel besitzt, wird der Begriff meist im Plural verwendet.</text>
+	</entry>
+	<entry id="4" key="Äquinoktium" wiki="http://de.wikipedia.org/wiki/%C3%84quinoktium">
+		<text>Äquinoktium (lat. aequus „gleich“, nox „Nacht“) ist ein in der Astronomie gebrauchter Sammelbegriff für bestimmte Punkte auf der Ekliptik-Bahn und für die Zeitpunkte, zu denen diese von der Sonne passiert werden. Eine deutsche Bezeichnung ist Tagundnachtgleiche.</text>
+	</entry>
+	<entry id="5" key="Bahnelement" wiki="http://de.wikipedia.org/wiki/Bahnelement">
+		<text>Sechs Bahnelemente legen die Bahn eines Astronomischen Objekts eindeutig fest, das den Keplerschen Gesetzen im Schwerefeld eines Himmelskörpers (Zweikörperproblem) gehorcht.Zwei Bahnelemente definieren die Gestalt der Bahn-Ellipse, drei Elemente bestimmen die Lage im Raum und ein Element legt den Zeitbezug fest.</text>
+	</entry>
+	<entry id="6" key="Baryzentrum" wiki="http://de.wikipedia.org/wiki/Baryzentrum">
+		<text>Mit Baryzentrum (griechisch βαρύς schwer, also „Schwerezentrum“) bezeichnet man in der Himmelsmechanik den Massen-Schwerpunkt eines Systems von zwei oder mehreren Himmelskörpern. Es ist der Ruhepunkt des Systems, um den die Körper sich bewegen (z. B. das Erde-Mond-System) und mit dem das System an der Bewegung in einem größeren System teilnimmt (z. B. Erde und Mond auf ihrer Bahn um die Sonne).</text>
+	</entry>
+	<entry id="7" key="Besselsche Elemente">
+		<text>Die Besselschen Elemente sind tabellarisch dargestellte Größen, die bei gegenseitiger Bedeckung von zwei Himmelskörpern der Berechnung und Voraussage lokaler Gegebenheiten an einem Beobachtungsort auf der Erde dienen. Das Prinzip wird in erster Linie für Sonnenfinsternisse angewandt, aber auch bei Stern- oder Planetenbedeckungen durch den Mond sowie den Transiten von Venus und Merkur vor der Sonne findet es Verwendung. Bei Mondfinsternissen kommt ein ähnliches Verfahren zur Anwendung, wobei in diesem Fall der Schatten nicht auf die Erde, sondern auf den Mond fällt. Bei Sonnenfinsternissen kann beispielsweise basierend auf den Besselschen Elementen die Bedeckungsdauer an einem bestimmten Ort ermittelt werden, oder es ist der Pfad bestimmbar, auf dem der Kernschatten bei einer totalen Sonnenfinsternis die Erdoberfläche überstreicht. Dieses Berechnungsverfahren wurde in den 1820er Jahren durch Friedrich Wilhelm Bessel entwickelt und später von William Chauvenet verfeinert. Die grundlegende Idee dabei ist, dass die Besselschen Elemente die Bewegung des durch den bedeckenden Himmelskörper verursachten Schattens – bei Sonnenfinsternissen ist dies der Mondschatten – auf der geeignet gewählten, sogenannten Fundamentalebene wiedergeben. Dabei handelt es sich um die geozentrische Normalebene der Schattenachse. Damit ist gemeint, dass diese Ebene durch den Erdmittelpunkt geht und senkrecht auf der Achse des Schattenkegels steht, also der Geraden, die durch die Zentren des bedeckten und des bedeckenden Himmelskörpers geht. Zur Beschreibung der Bewegung des Schattens in dieser Ebene ist die Angabe vergleichsweise weniger Größen ausreichend – bei hinreichender Genauigkeit. Dies liegt nicht zuletzt daran, dass der Schatten während des gesamten Finsternisverlaufs in dieser Ebene immer kreisförmig ist und keiner perspektivischen Verzerrung unterliegt.[2] Ausgehend davon werden erst im nächsten Schritt durch Projektion die Gegebenheiten an der Erdoberfläche errechnet, wobei erst dann die annähernde Kugelform der Erde, die Erddrehung sowie die Lage und Höhe des Beobachtungsorts berücksichtigt werden müssen.</text>
+	</entry>
+	<entry id="8" key="Deklination" wiki="http://de.wikipedia.org/wiki/Deklination_%28Astronomie%29">
+		<text>Die Deklination (vom Lateinischen für „Beugung“), auch Himmlischer Breitengrad genannt, wird in der Astronomie als eine Koordinate bei der Positionsangabe von Himmelsobjekten verwendet. Sie entspricht der Projektion der Breitenkreise der Erde auf eine (imaginäre) Himmelskugel. Die Deklination gibt somit den Winkelabstand eines Objektes vom Himmelsäquator an. Werte nördlich des Äquators sind positiv, Werte südlich davon negativ.</text>
+	</entry>
+	<entry id="9" key="Ekliptik" wiki="http://de.wikipedia.org/wiki/Ekliptik">
+		<text>Die Ekliptik (lat. linea ecliptica, „zur Eklipse gehörende Linie/Bahn“, zu gr. ἔκλειψις, ekleipsis, „Ausbleiben, Verschwinden, Finsternis“) ist die Projektion der scheinbaren Bahn der Sonne im Verlauf eines Jahres auf die Himmelskugel, das heißt den Fixsternhintergrund. Die Ekliptik ist ein imaginärer Großkreis am Himmel, das heißt, sie definiert eine Ebene, in der sowohl der Mittelpunkt der Erde als auch der Mittelpunkt der Sonne liegen. Diese Ebene ist damit die Bahnebene der Erde um die Sonne und wird auch Ekliptikebene oder Ekliptikalebene genannt. Der Winkel zwischen Äquatorebene und Ekliptikebene ist die Schiefe der Ekliptik ε (Erdneigung oder auch Obliquität).</text>
+	</entry>
+	<entry id="10" key="Ekliptikale Breite" wiki="http://de.wikipedia.org/wiki/Ekliptikale_Breite">
+		<text>Die ekliptikale Breite β ist eine der zwei Himmelskoordinaten des ekliptikalen Koordinatensystems. Sie zählt von der Ekliptik - der scheinbaren jährlichen Sonnenbahn unter den Sternen - positiv nach Norden (Richtung nördlichen Himmelspol) und negativ nach Süden und wäre mit der geographischen Breite zu vergleichen.</text>
+	</entry>
+	<entry id="11" key="Elongation" wiki="http://de.wikipedia.org/wiki/Elongation_%28Astronomie%29">
+		<text>Die Elongation ψ bezeichnet in der Astronomie den von einem Beobachter aus gesehenen Winkelabstand zweier Himmelsobjekte. Im allgemeinen steht der Beobachter auf der Erde, und die Elongation beschreibt den beobachteten (scheinbaren) Abstand eines Planeten von der Sonne.</text>
+	</entry>
+	<entry id="12" key="Ephemeride" wiki="http://de.wikipedia.org/wiki/Ephemeride">
+		<text>Eine Ephemeride ist eine Tabelle, die die Positionen eines sich bewegenden astronomischen Objekts auflistet. Ephemeriden finden sowohl in der Raumfahrt wie in der Himmelsmechanik sowie in vielen Anwendungen mit Bezug zur Sonne, Satelliten und ähnlichem, und ferner in der Astrologie Verwendung.</text>
+	</entry>
+	<entry id="13" key="Exzentrizität" wiki="http://de.wikipedia.org/wiki/Exzentrizit%C3%A4t_%28Astronomie%29">
+		<text>Die Exzentrizität, auch „Numerische Exzentrizität“ oder „Bahnexzentrizität“ genannt, ist in der Astronomie eine dimensionslose Größe, die in der Himmelsmechanik als eine Bahneigenschaft zur Beschreibung der Form einer Keplerbahn dient. Die Exzentrizität charakterisiert die verschiedenen Typen der Lösungen des Keplerproblems (Zweikörperproblem). Es handelt sich um die numerische Exzentrizität der jeweiligen Bahn.</text>
+	</entry>
+	<entry id="14" key="Finsternis-Limite" wiki="http://de.wikipedia.org/wiki/Finsternis-Limite">
+		<text>Finsternis-Limite sind ekliptikale Winkel Δλ zwischen Mond und Mondknoten (das heißt Knoten-Distanzen), innerhalb derer Sonnen- und Mondfinsternisse stattfinden. Für verschiedene Arten von Sonnen- und Mondfinsternissen (total, partiell, Halbschatten) gelten verschiedene Finsternis-Limite. Befindet sich der Mond östlich des Knotens, sind die Werte positiv (+), bei westlicher Lage sind sie negativ (-).</text>
+	</entry>
+	<entry id="15" key="Finsterniszyklen" wiki="http://de.wikipedia.org/wiki/Finsterniszyklen">		
+	<text>Ein Finsterniszyklus enthält zeitlich aufeinander folgende Sonnen- oder Mondfinsternisse. Der Zeitraum zwischen je zwei Finsternissen ist die Finsternisperiode des betreffenden Zyklus. Von irgend einem Ort der Erde aus sind mehrheitlich alle sechs Mond-Monate (synodische Monate) Finsternisse zu beobachten, deren reine Aufzählung als Canon der Finsternisse bezeichnet wird. Die Unterbrechung des sechs-monatigen Rhythmus durch eine fünf-monatige Pause führt zu einzelnen Reihen des natürlichen Semesterzyklus' , die sich teilweise überlappen und aus je acht bis zehn Finsternissen bestehen. Bedeutsam sind Auslese-Finsterniszyklen, in denen nur Finsternisse beachtet werden, die sich von mal zu mal wenig unterscheiden. Zwei sich in diesen folgende Finsternisse sind sich um so ähnlicher, je länger die Finsternisperiode gewählt wird, das heißt je mehr Finsternisse aus dem Katalog aller Finsternisse - dem sogenannten Canon der Finsternisse - übersprungen werden.</text>
+	</entry>
+	<entry id="16" key="Mondfinsternis" wiki="http://de.wikipedia.org/wiki/Mondfinsternis">
+		<text>Mondfinsternis ist eine Erzählung von Friedrich Dürrenmatt, die zu Anfang der 1950er Jahren entstand und 1978 umgearbeitet wurde.</text>
+	</entry>
+	<entry id="17" key="Mondknoten" wiki="http://de.wikipedia.org/wiki/Mondknoten">
+		<text>Die Mondknoten oder Drachenpunkte sind die Schnittpunkte der Mondbahn mit der Ekliptikebene. Der aufsteigende Mondknoten (übliches Symbol: ☊) ist derjenige, bei dem der Mond von der südlichen auf die nördliche Seite der Ekliptik wechselt. Im absteigenden Mondknoten (☋) wechselt der Mond auf die Südseite der Ekliptik. Die Verbindung der beiden Knoten heißt Knotenlinie. Als Drakonitischer Monat wird die Zeitspanne zwischen zwei aufeinander folgenden Durchgängen des Mondes durch den aufsteigenden Knoten bezeichnet.</text>
+	</entry>
+	<entry id="18" key="Mondphasen" wiki="http://de.wikipedia.org/wiki/Mondphase">
+		<text>Als Mondphasen bezeichnet man die wechselnden Lichtgestalten des Mondes durch die perspektivische Lageänderung seiner Tag-Nacht-Grenze relativ zur Erde während seines Erdumlaufes. Man unterscheidet landläufig Vollmond, abnehmender Mond, Neumond und zunehmender Mond. Neumond, Vollmond und die beiden Halbmonde bezeichnet man als Hauptphasen. Im scheinbaren Widerspruch zur allgemeineren Bezeichnung Halbmond – das ist die Halbphase (Dichotomie) – beziehen sich Astronomen auf den vollen Zyklus des Mondes und nennen die zunehmende Halbphase erstes Viertel, die abnehmende entsprechend letztes Viertel. Die ganz schmalen Mondsicheln bezeichnet man als Neulicht und Altlicht.</text>
+	</entry>
+	<entry id="19" key="Nutation" wiki="http://de.wikipedia.org/wiki/Nutation_%28Astronomie%29">
+		<text>Unter Nutation (zu lateinisch nutare „nicken“) versteht die Astronomie eine kleine periodische Schwankung der Richtung der Erdachse, die sich dem gleichmäßigen Kegelumlauf der Erdachse, der Präzession, überlagert. Ihre Periodendauer beträgt 18,6 Jahre, und ihre Amplitude ist 9,2\" rechtwinklig zur Ekliptik und 6,8\" parallel zur Ekliptik. Daneben gibt es weitere Nutationsanteile mit Amplituden unter 1\" und kürzeren Perioden.</text>
+	</entry>
+	<entry id="20" key="Penumbra">
+		<text>Halbschatten</text>
+	</entry>
+	<entry id="21" key="Perihel" wiki="http://de.wikipedia.org/wiki/Perihel#Perihel">
+		<text>Das Perihel ist der sonnennächste Punkt einer Planetenbahn.</text>
+	</entry>
+	<entry id="22" key="Präzession" wiki="http://de.wikipedia.org/wiki/Pr%C3%A4zession">
+		<text>Die Präzession ist allgemein die Richtungsänderung der Achse eines rotierenden Körpers, wenn äußere Kräfte ein Drehmoment auf ihn ausüben. Speziell in der Astronomie ist damit die Richtungsänderung der Erdachse gemeint, die eine Folge der Massenanziehung des Mondes und der Sonne in Verbindung mit der Abweichung der Erdfigur von der Kugelform ist.</text>
+	</entry>
+	<entry id="23" key="Rektaszension" wiki="http://de.wikipedia.org/wiki/Rektaszension">
+		<text>Die Rektaszension (aus dem Lateinischen für „gerader Aufstieg“; gebräuchlichste Abkürzungen: α und RA, vom englischen Right Ascension), auch Himmlischer Längengrad genannt, ist in der Astronomie der Winkel zwischen dem Längenkreis des Frühlingspunktes bis zum Längenkreis, über dem das beobachtete Objekt steht, auf der Äquatorebene gemessen. Er ist die Entsprechung auf der (imaginären) Himmelskugel zur geographischen Länge auf der Erde.</text>
+	</entry>
+	<entry id="24" key="Solstitiallinie" wiki="http://de.wikipedia.org/wiki/Solstitiallinie#Solstitiallinie">
+		<text>Die Verbindungslinie zwischen den Positionen der Erde zum Zeitpunkt der Sommersonnenwende und der Wintersonnenwende wird Solstitiallinie genannt. Diese Linie geht also mitten durch die Sonne hindurch, ihre Verlängerung außerhalb der Erdbahn durch den Sommerpunkt und den Winterpunkt. Sie steht senkrecht auf der Äquinoktiallinie.</text>
+	</entry>
+	<entry id="25" key="Sonnenfinsternis" wiki="http://de.wikipedia.org/wiki/Sonnenfinsternis">
+		<text>Eine irdische Sonnenfinsternis oder Eklipse (griechisch: ἔκλειψις ékleipsis „Überlagerung, Verdeckung, Auslöschung“), ist ein astronomisches Ereignis, bei dem die Sonne von der Erde aus gesehen durch den Mond ganz oder teilweise verdeckt wird. „Der Mond steht einem Erde-Bewohner in der Sonne.“ Der scheinbare Durchmesser der Sonne und des Mondes sind zufällig annähernd gleich groß, so dass der Mond die Sonne gerade vollständig bedecken und eine totale Sonnenfinsternis entstehen kann. Die dabei auf die Erde fallende Kernschatten-Spur des Mondes ist aber nur ein paar hundert Kilometer breit. Der Halbschatten ist hingegen mehrere tausend Kilometer breit, so dass von mehr als einem Viertel der Erdoberfläche aus eine partielle Verfinsterung der Sonne beobachtbar ist.</text>
+	</entry>
+	<entry id="26" key="Sonnenfinsternis (Grundlagen)">
+		<text>Damit es zu einer Sonnenfinsternis kommt, müssen Sonne, Mond und Erde möglichst genau auf einer Linie stehen. Da die Mondbahn gegen die Ekliptik geneigt ist, tritt dies nur ein, wenn sich Sonne und Mond in der Nähe der Mondknoten befinden. Die Sonne braucht ein halbes Finsternisjahr (173,31 Tage), um erneut einen der beiden Mondknoten zu passieren. Eine Sonnenfinsternis ist beim sechsten folgenden Neumond (nach 177,18 Tagen) wieder möglich. Die Verspätung von knapp 4 Tagen kumuliert sich, und die Finsternis-Reihe bricht ab. Eine neue Reihe entsteht, wobei anfänglich Neumond ist, bevor der Mond den Knoten erreicht hat. Manchmal beginnt die neue Reihe bereits, bevor die vorherige beendet ist. Dann gibt es zwei Sonnenfinsternisse im Abstand von etwa vier Wochen, eine schon beim fünften und eine noch beim sechsten folgenden Neumond. Der scheinbare Durchmesser des Mondes reicht bei manchen Finsternissen aus, die Sonne vollständig zu bedecken, manchmal ist er hingegen zu klein, so dass die Sonne um den Mond herum sichtbar bleibt. Dies liegt daran, dass sowohl die Umlaufbahn der Erde um die Sonne als auch die des Mondes um die Erde nicht kreisförmig, sondern leicht elliptisch sind, also Mond und Sonne von der Erde aus gesehen nicht immer gleich groß erscheinen. Bei den Finsternissen am Anfang und am Ende der Reihen wird die Erdoberfläche nicht vom Kernschatten des Mondes getroffen, sondern nur von seinem Halbschatten. Aus diesem Grund sind verschiedene Arten von Sonnenfinsternissen zu unterscheiden.</text>
+	</entry>
+	<entry id="27" key="Zeitgleichung" wiki="http://de.wikipedia.org/wiki/Zeitgleichung">
+		<text>Als Zeitgleichung wird die Differenz zwischen der wahren Sonnenzeit (wahre Ortszeit WOZ) und der mittleren Sonnenzeit (mittlere Ortszeit MOZ) eines Ortes (oder Orten auf demselben Längengrad) bezeichnet.</text>
+	</entry>
+</dict_entries>

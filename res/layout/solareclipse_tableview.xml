@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/Black" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical"
+	android:layout_gravity="bottom">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:text="Übersicht der nächsten Ereignisse:"
+		android:layout_marginBottom="5dip" android:textSize="20dip" />
+
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TableLayout android:id="@+id/lo_tableview"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:stretchColumns="0">
+
+				<TextView android:layout_column="1" android:text="Datum"
+					android:padding="3dip" />
+				<TextView android:text="Ort" android:gravity="right"
+					android:padding="3dip" />
+				<TextView android:text="Typ" android:gravity="right"
+					android:padding="3dip" />
+			</TableRow>
+
+			<View android:layout_height="2dip" android:background="#FF909090" />
+
+
+			<!-- <Button android:id="@+id/bu_fivemore" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5dip"
+				android:layout_marginBottom="5dip" android:text="@string/butext_fivemore"
+				android:layout_gravity="right" android:clickable="true"
+				android:longClickable="false" /> -->
+
+		</TableLayout>
+
+	</ScrollView>
+
+</LinearLayout>

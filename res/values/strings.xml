@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Solar Eclipse</string>
+    <string name="warning">WARNING</string>
+    
+    <!-- Textfield Text -->
+    <string name="startup_description">Auswahlmöglichkeiten:</string>
+    
+    <!--  Activity Labels -->
+    <string name="al_solarTableView">@string/butext_solarDict</string>
+    <string name="al_solarMapView">@string/butext_googleMaps</string>
+    <string name="al_solarDictView">@string/butext_solarDict</string>
+    
+    <!-- Button Text -->
+    <string name="butext_showTableView">Ereignisse anzeigen</string>
+    <string name="butext_solarDict">Astronomisches Glossar</string>
+    <string name="butext_earthview">Ereignisse grafisch Anzeigen</string>
+    <string name="butext_googleMaps">Verlauf auf Google Maps anzeigen</string>
+   
+    <string name="butext_fivemore">Weitere Anzeigen</string>
+    
+    <!-- Menu Text -->
+    <string name="me_mapv_deac">Overlay de-/aktivieren</string>
+    <string name="me_mapv_sat">Ansicht umschalten</string>
+    <string name="me_mapv_ownpos">Position ein-/ausblenden</string>
+    <string name="me_dict_next">zu Nächstem Artikel</string>
+    <string name="me_dict_prev">zu Vorherigem Artikel</string>
+    <string name="me_dict_wiki">auf Wikipedia anzeigen</string>
+    <string name="me_dict_showList">Auswahl anzeigen</string>
+    
+    <!-- Dialog Text -->
+    <string name="di_dict_titel">Verfügbare Artikel</string>
+    <string name="di_dict_errtitel">Fehler</string>
+    
+    <!--  Error Text -->
+    <string name="err_parseErr">Fehler beim Auslesen der Datei</string>
+    <string name="err_noFileErr">Glossardatei nicht gefunden</string>
+    
+</resources>

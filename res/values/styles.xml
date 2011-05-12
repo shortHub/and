@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="sty_bu_por" parent="android:Widget.Button">
+	<!-- describes the Default Button Style in Portrait View -->
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">5px</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:longClickable">true</item>
+		<item name="android:clickable">true</item>		
+	</style>
+	
+	<style name="sty_bu_lan" parent="android:Widget.Button">
+	<!-- describes the Default Button Style in Landscape View -->
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:longClickable">true</item>
+		<item name="android:clickable">true</item>
+	</style>
+	
+	<style name="textStyle" parent="android:Widget.TextView">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+</resources>

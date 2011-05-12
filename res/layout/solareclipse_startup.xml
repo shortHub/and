@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/Black" 
+  android:orientation="vertical">
+  
+ 
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:gravity="center"
+  	android:layout_marginTop="5dip"
+  	android:textSize="24dip"
+  	android:text="@string/startup_description"
+  />
+  
+  <Button
+	android:id="@+id/bu_showSolarTableView"
+	style="@style/sty_bu_por"
+	android:text="@string/butext_showTableView"
+	android:onClick="onClickShowSClipse"
+  />
+
+  <Button
+  	android:id="@+id/bu_googleMaps"
+	style="@style/sty_bu_por"
+  	android:text="@string/butext_googleMaps"
+  />
+  
+  <Button
+  	android:id="@+id/bu_solarDict"
+  	style="@style/sty_bu_por" 
+  	android:text="@string/butext_solarDict"
+  	android:onClick="onClickShowSolarDict"
+  />
+  
+  <ImageView 
+  	android:id="@+id/blub" 
+  	android:layout_gravity="center|bottom" 
+  	android:layout_height="match_parent" 
+  	android:layout_width="match_parent" 
+  	android:src="@drawable/subg"
+  android:scaleType="fitXY"/>
+  
+</LinearLayout>
+    
